@@ -41,3 +41,44 @@ body {
     background-size: 10px;
     margin: 0;
 }
+
+h1 {
+    font-family: "SF Pro Display", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: SF Pro Display;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: SF Pro Display;
+    color: white
+}
+
+body {
+    background-color: black;
+}
+
+#Content {
+    display: flex;
+    justify-content: center;      
+    align-items: center;          
+    height: 50vh;            
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 800;
+    color: crimson;
+    background: linear-gradient(90deg, #FFFFFF, rgba(0, 0, 0, 0));
+    text-align: center;
+}
+
+#warning {
+    background-color: lightcoral;
+    color: black;
+    background-size: 10px;
+    margin: 0;
+}
