@@ -1,0 +1,118 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.bigassspace{
+    padding: 250px 0px 0px 0px;
+}
+
+.farawaylol {
+    text-align: center;
+    font-size: 80;
+    background: url('https://i.sstatic.net/QqRWG.jpg') no-repeat center center scroll;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+.black{
+    color: black;
+    font-weight: extra-bold;
+}
+.grey {
+    color: grey
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    text-align: center;}
+
+.glass{
+    position: relative;
+    border-radius: 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 20px;
+    isolation: isolate;
+    background-color: rgba(255, 255, 255, 0.45);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.2);
+    /* stronger blur + slight saturation for a nicer frosted effect */
+    backdrop-filter: blur(8px) saturate(120%);
+}
+
+.glassback{
+    position: relative;
+    border-radius: 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 20px;
+    isolation: isolate;
+    z-index: 0;
+    
+}
+
+.bar{
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    height: 44px; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 32px; 
+    position: fixed; 
+    top: 0;
+    border-radius: 20px;
+    /* use an rgba background (more compatible) and make it semi-transparent so backdrop-filter can show */
+    background-color: rgba(255, 255, 255, 0.45);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.2);
+    /* stronger blur + slight saturation for a nicer frosted effect */
+    backdrop-filter: blur(8px) saturate(120%);
+    -webkit-backdrop-filter: blur(8px) saturate(120%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 20px;
+    isolation: isolate;
+    z-index: 9999;
+    will-change: backdrop-filter;
+}
+
+/* Glass effect container for forum section later, rip louna who's gonna have to code it lol */
+.glassforum{ 
+    position: relative;
+    border-radius: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 20px;
+    isolation: isolate;}
+
+.bg-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('lounametunfondstp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    pointer-events: none;
+}
