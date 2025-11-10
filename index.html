@@ -1,39 +1,156 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="uft-8">
-        <link rel="stylesheet" href="styles/style.css"/>
-        <title>Memento Software - Home</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Memento Software - We build what you need. Professional software solutions tailored to your business.">
+    <title>Memento Software - Home</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="fonts/">
-        <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <div class="topnav">
-            <span class="navbar">
-            <a class="active" href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Contact</a>
-            </span>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Memento</span>
+                <span class="logo-accent">Software</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
         </div>
-    </head>
+    </nav>
 
-    <h1>Memento Software.</h1>
-    <h2>We build what you need.</h2>
-    <div>
-        <h3>See our latest Updates : </h3>
-        
-    </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Memento</span>
+                <span class="title-line accent">Software</span>
+            </h1>
+            <p class="hero-subtitle">We build what you need.</p>
+            <p class="hero-description">Transforming ideas into powerful software solutions that drive your business forward.</p>
+            <div class="hero-cta">
+                <a href="contact.html" class="btn btn-primary">Get Started</a>
+                <a href="about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
 
-    <span id="Content">
-        Content will be soon posted here.
-    </span>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">What We Offer</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Custom Development</h3>
+                    <p class="feature-description">Tailored software solutions designed specifically for your business needs and workflows.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Performance Optimized</h3>
+                    <p class="feature-description">Lightning-fast applications built with modern technologies and best practices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="feature-title">Secure & Reliable</h3>
+                    <p class="feature-description">Enterprise-grade security and reliability built into every solution we deliver.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Cross-Platform</h3>
+                    <p class="feature-description">Seamless experiences across all devices and platforms, from web to mobile.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h2>
-        <em id="warning">
-            ⚠ Please note that the website is still in developpement.
-        </em>
-    </h2>
+    <!-- Products Section -->
+    <section class="products-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Products</h2>
+                <span class="trending-badge">Trending</span>
+            </div>
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <img src="images/Sans nom.png" alt="ThanatOS Linux" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ThanatOS Linux</h3>
+                        <p class="product-description">A powerful Linux distribution with the latest kernel optimizations and UEFI support.</p>
+                        <a href="https://github.com/Mementosoft/thanatoslinux/releases/latest" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Latest Release</a>
+                    </div>
+                </div>
+            </div>
+            <div class="products-cta">
+                <a href="products.html" class="btn btn-secondary">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updates Section -->
+    <section class="updates">
+        <div class="container">
+            <h2 class="section-title">Latest Updates</h2>
+            <div class="updates-content">
+                <div class="update-card">
+                    <div class="update-header">
+                        <span class="update-badge">Coming Soon</span>
+                        <span class="update-date">2025</span>
+                    </div>
+                    <p class="update-text">We're working on exciting new features and updates. Stay tuned for announcements!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Memento Software</h3>
+                    <p class="footer-text">Building the future, one line of code at a time.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-notice">
+                    <span class="warning-icon">⚠</span>
+                    Please note that the website is still in development.
+                </p>
+                <p class="footer-copyright">&copy; 2025 Memento Software. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
